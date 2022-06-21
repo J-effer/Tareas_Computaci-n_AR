@@ -51,3 +51,9 @@ while(codigo != 00)
 }
 
 }
+
+int main()
+{
+    Principal_Function(codigo);
+    return 0;
+}
