@@ -1,4 +1,7 @@
+Jefferson Gómez Herrera - 2201293 
 Pseudocódigo Evaluación_1_Computación
+
+PARA PROGRAMA EN C++
 
 1. Inicio.
 2. Define datos de entrada: int codigo; int n
@@ -21,19 +24,24 @@ Pseudocódigo Evaluación_1_Computación
 - Pseudocódigo función principal:
 
 1. Inicio
-2. Parámetros de entrada: int codigo.
-3. Inicia un bucle do while
+2. Define parámetros y entradas: in a ; int codigo.
+3. Solicita y recibe el codigo del usuario.
+3. Inicia un bucle while:
 
-do {imprime mensaje " Ingrese su código " y permite ingresar el numero; 
-si el dato ingresado por el usuario es un entero y es diferente de 00
-imprime el mensaje " La suma de los dígitos de su código es " y llama a la 
-función getSum(codigo)
+while (La condicion es que el codigo ingresado sea distinto de 00) do {
 
-de otra manera detiene el programa e imprime el mensaje 
-"Valor inválido" y permite ingresar nuevamente el numero;
-
-while {codigo no es una letra}
+revisa si el valor ingresado por el usuario es el requerido, en este caso, int, sino lo es, informa al usuario del error y pide el ingreso nuevamente;
+Una vez se tenga el valor ingresado correctamente se llama a la funcion getSum(codigo) y se imprime un mensaje "La suma de los digitos de codigo es: " + sum
 }
+
+
+
+
+
+
+
+
+
 
 4. Imprime "La suma de los digitos es " Sum
 5.Fin
