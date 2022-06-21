@@ -20,12 +20,15 @@ int getSum(int n)
 int Principal_Fuction()
 {
     
-int codigo;
+int codigo;  // define variable de entrada
 int a = 1;
-//char b = 'A' ;
+
 cout << "Ingrese su codigo: ";
 cin >> codigo;
 
+    
+    /*Inicia un bucle que permite realizar la suma del código hasta que no ingrese 00; además, permite
+    decidir si el valor ingresado por máquina es el requerido, en este caso, int, sino lo es, informa al usuario del error y pide el ingreso nuevamente*/
 while(codigo != 00)
 {
 
@@ -36,9 +39,9 @@ while(codigo != 00)
         cin >> codigo;
     }
     
-    if(cin.fail())
+    if(cin.fail()) // Funcion cin.fail() retorna true si se ingresa un valor no correspondiente a la variable definida para el
     {
-    cin.clear();
+    cin.clear(); // Elimina el error y permite la continuación del programa
     cin.ignore();
     cout<<"Valor invalido"<<endl;
     cout<<"Ingrese un nuevo codigo" << endl;
