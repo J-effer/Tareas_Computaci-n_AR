@@ -1,7 +1,7 @@
-Jefferson Gómez Herrera - 2201293 
+Jefferson Gómez Herrera - 2201293 - 21/06/2022 - Computación de alto rendimiento y científica.
 Pseudocódigo Evaluación_1_Computación
 
-PARA PROGRAMA EN C++
+PARA PROGRAMA EN C++ Y C
 
 1. Inicio.
 2. Define datos de entrada: int codigo; int n
