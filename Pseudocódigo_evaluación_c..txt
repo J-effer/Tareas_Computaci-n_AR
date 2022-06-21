@@ -21,7 +21,7 @@ PARA PROGRAMA EN C++ Y C
 5. Devuelve sum
 6. Fin.
 
-- Pseudocódigo función principal:
+- Pseudocódigo Principal_Function():
 
 1. Inicio
 2. Define parámetros y entradas: in a ; int codigo.
