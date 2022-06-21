@@ -34,4 +34,5 @@ de otra manera detiene el programa e imprime el mensaje
 while {codigo no es una letra}
 }
 
-4. Fin 
+4. Imprime "La suma de los digitos es " Sum
+5.Fin
