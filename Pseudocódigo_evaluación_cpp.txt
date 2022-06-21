@@ -1,12 +1,9 @@
 Pseudocódigo c++
 
 1. Inicio.
-2. Define int codigo.
-3. Recibe codigo.
-4. Comienza bucle whilw
-
-while(codigo != 0) do {Imprime mensaje "La suma de los digitos de su codigo es: ";
-Imprime la suma llamando a la función getSum(codigo);
-}
-
-5. Fin
+2. Define variable: int codigo.
+3. Define función getSum(n).
+4. Define función Principal_function y llama dentro de esta getSum.
+5. Llama función Principal(codigo).
+6. Devuelve mensaje "La suma de los digitos del código es: " con la suma de los digitos.
+7. Fin
