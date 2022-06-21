@@ -26,7 +26,7 @@ PARA PROGRAMA EN C++
 1. Inicio
 2. Define parámetros y entradas: in a ; int codigo.
 3. Solicita y recibe el codigo del usuario.
-3. Inicia un bucle while:
+4. Inicia un bucle while:
 
 while (La condicion es que el codigo ingresado sea distinto de 00) do {
 
@@ -35,13 +35,4 @@ Una vez se tenga el valor ingresado correctamente se llama a la funcion getSum(c
 }
 
 
-
-
-
-
-
-
-
-
-4. Imprime "La suma de los digitos es " Sum
 5.Fin
