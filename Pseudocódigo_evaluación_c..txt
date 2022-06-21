@@ -4,6 +4,7 @@ Pseudocódigo Evaluación_1_Computación
 2. Define datos de entrada: int codigo; int n
 3. Define la función que suma los dígitos: getSum.
 4. Define la función principal.
+5: Llama a la función principal Principal_Function(codigo)
 5. Devuelve suma junto a un mensaje.
 6. Fin.
 
@@ -11,9 +12,9 @@ Pseudocódigo Evaluación_1_Computación
 
 1. Inicio
 2. Parámetros de entrada: int n.
-3. Define sum = sum + n % 10.}.
+3. Define sum = sum + n % 10.
 4. Inicia bucle while (n != 0) do {sum;
-n = n / 10;}
+                      n = n / 10;}
 5. Devuelve sum
 6. Fin.
 
